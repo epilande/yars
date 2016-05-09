@@ -11,7 +11,7 @@ config.devtool = 'source-map';
 
 config.entry = './src/index';
 
-config.output.publicPath = '/';
+config.output.publicPath = './';
 
 config.module.loaders.push({
   test: /\.css$/,
