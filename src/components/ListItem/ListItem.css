@@ -1,10 +1,8 @@
-@value dark, secondary from "styles/utils/colors.css";
-
 .item {
   padding: 1rem;
   border-bottom: 1px solid color(#433a5a alpha(25%));
   background: #eef3f5;
-  color: dark;
+  color: var(--dark);
 
   &:hover .remove {
     opacity: 1;
@@ -52,7 +50,7 @@
   cursor: pointer;
 
   &:hover {
-    color: secondary;
+    color: var(--secondary);
     font-weight: 600;
   }
 }

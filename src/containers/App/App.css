@@ -1,5 +1,3 @@
-@value dark from "styles/utils/colors.css";
-
 .base {
   composes: container from "styles/utils/layout.css";
 }
@@ -31,6 +29,6 @@
   padding: 1.5rem;
   width: 100%;
   height: calc(100vh - 250px);
-  background: dark;
-  box-shadow: 0 1rem 2.5rem 0 color(#000 alpha(20%));
+  background: var(--dark);
+  box-shadow: 0 1rem 2.5rem 0 color(var(--black) alpha(20%));
 }

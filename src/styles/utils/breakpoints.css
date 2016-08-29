@@ -1,5 +1,0 @@
-/* Screen sizes */
-@value small: screen and (min-width: 35.5em); /* 568px */
-@value medium: screen and (min-width: 48em); /* 768px */
-@value large: screen and (min-width: 64em); /* 1024px */
-@value xlarge: screen and (min-width: 80em); /* 1280px */

@@ -1,8 +1,0 @@
-@value white from "styles/utils/colors.css";
-
-h1 {
-  color: white;
-  font-weight: 400;
-  font-size: 2.5rem;
-  letter-spacing: 0.25rem;
-}
