@@ -39,8 +39,6 @@ const config = merge(baseConfig, {
   postcss: function() {
     return [
       require('stylelint'),
-      require('postcss-modules-values'),
-      require('postcss-import'),
       require('postcss-nested'),
       require('postcss-cssnext')({ browsers: ['last 2 versions', 'IE > 10'] }),
       require('postcss-reporter')({ clearMessages: true }),
