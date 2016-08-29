@@ -1,0 +1,59 @@
+:root {
+  background: var(--gradientTop);
+  font-size: 12px;
+  @media (--small) {
+    font-size: 14px;
+  }
+  @media (--large) {
+    font-size: 16px;
+  }
+}
+
+::selection {
+  background: var(--primary);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: var(--baseFont);
+  background: linear-gradient(to bottom, var(--gradientTop) 0%, var(--gradientBottom) 100%);
+  color: var(--white);
+  overflow-y: hidden;
+  letter-spacing: 0.1rem;
+}
+
+button {
+  outline: none;
+  cursor: pointer;
+}
+
+input {
+  color: var(--dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--white);
+
+  &:hover,
+  &:global(.active) {
+    border-bottom: 1px solid var(--primary);
+  }
+
+  &:global(.active) {
+    color: var(--primary);
+  }
+}
+
+h1 {
+  color: var(--white);
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.25rem;
+}
