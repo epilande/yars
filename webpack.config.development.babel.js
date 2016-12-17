@@ -23,7 +23,6 @@ const config = merge(baseConfig, {
   devServer: {
     hot: true,
     inline: true,
-    progress: true,
     contentBase: './dist',
     stats: { colors: true },
   },
