@@ -1,0 +1,118 @@
+exports[`ListItem should render a ListItem 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <li
+    className="item">
+    <div
+        className="itemText"
+        onClick={[Function]}>
+        Hello
+    </div>
+</li>,
+  "nodes": Array [
+    <li
+      className="item">
+      <div
+            className="itemText"
+            onClick={[Function]}>
+            Hello
+      </div>
+</li>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_instance": ShallowComponentWrapper {
+      "_calledComponentWillUnmount": false,
+      "_compositeType": 0,
+      "_context": Object {},
+      "_currentElement": <ListItem
+        item={
+                Object {
+                        "id": 1,
+                        "text": "Hello",
+                      }
+        } />,
+      "_debugID": 1,
+      "_hostContainerInfo": null,
+      "_hostParent": null,
+      "_instance": ListItem {
+        "_reactInternalInstance": [Circular],
+        "context": Object {},
+        "onBlur": [Function],
+        "onChange": [Function],
+        "onCheck": [Function],
+        "onEnter": [Function],
+        "onFocus": [Function],
+        "onRemove": [Function],
+        "onTextClick": [Function],
+        "props": Object {
+          "item": Object {
+            "id": 1,
+            "text": "Hello",
+          },
+        },
+        "refs": Object {},
+        "state": Object {
+          "editing": false,
+          "text": "Hello",
+        },
+        "updater": Object {
+          "enqueueCallback": [Function],
+          "enqueueCallbackInternal": [Function],
+          "enqueueElementInternal": [Function],
+          "enqueueForceUpdate": [Function],
+          "enqueueReplaceState": [Function],
+          "enqueueSetState": [Function],
+          "isMounted": [Function],
+          "validateCallback": [Function],
+        },
+      },
+      "_mountOrder": 1,
+      "_pendingCallbacks": null,
+      "_pendingElement": null,
+      "_pendingForceUpdate": false,
+      "_pendingReplaceState": false,
+      "_pendingStateQueue": null,
+      "_renderedComponent": NoopInternalComponent {
+        "_currentElement": <li
+          className="item">
+          <div
+                    className="itemText"
+                    onClick={[Function]}>
+                    Hello
+          </div>
+</li>,
+        "_debugID": 2,
+        "_renderedOutput": <li
+          className="item">
+          <div
+                    className="itemText"
+                    onClick={[Function]}>
+                    Hello
+          </div>
+</li>,
+      },
+      "_renderedNodeType": 0,
+      "_rootNodeID": 0,
+      "_topLevelWrapper": null,
+      "_updateBatchNumber": null,
+      "_warnedAboutRefsInRender": false,
+    },
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <ListItem
+    item={
+        Object {
+            "id": 1,
+            "text": "Hello",
+          }
+    } />,
+}
+`;
