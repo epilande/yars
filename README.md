@@ -1,6 +1,8 @@
 # YARS
 **Yet Another React Starter**
 
+[![Build Status](https://travis-ci.org/epilande/yars.svg?branch=master)](https://travis-ci.org/epilande/yars)
+
 ## Features
 * Webpack
 * React
