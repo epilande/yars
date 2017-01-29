@@ -1,4 +1,6 @@
 # YARS
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/epilande/yars.svg)](https://greenkeeper.io/)
 **Yet Another React Starter**
 
 ## Features
