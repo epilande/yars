@@ -1,7 +1,7 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Provider } from 'react-redux';
-import { Router, hashHistory } from 'react-router/es6';
+import { Router, hashHistory } from 'react-router/es';
 import { syncHistoryWithStore } from 'react-router-redux';
 import { install as offlineInstall } from 'offline-plugin/runtime'; // eslint-disable-line
 // Important to have styles imported before routes
