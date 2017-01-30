@@ -11,7 +11,8 @@
     "dev:dashboard": "webpack-dashboard -- webpack-dev-server --config webpack.config.development.babel.js",
     "prod": "NODE_ENV=production webpack --config webpack.config.production.babel.js",
     "test": "jest",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
   },
   "engine-strict": true,
   "engines": {
@@ -76,6 +77,8 @@
     ],
     "moduleNameMapper": {
       "^.+\\.css$": "identity-obj-proxy"
-    }
+    },
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   }
 }
