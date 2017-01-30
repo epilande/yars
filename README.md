@@ -1,10 +1,9 @@
 # YARS
-
-[![Greenkeeper badge](https://badges.greenkeeper.io/epilande/yars.svg)](https://greenkeeper.io/)
 **Yet Another React Starter**
 
 [![Build Status](https://travis-ci.org/epilande/yars.svg?branch=master)](https://travis-ci.org/epilande/yars)
 [![codecov](https://codecov.io/gh/epilande/yars/branch/master/graph/badge.svg)](https://codecov.io/gh/epilande/yars)
+[![Greenkeeper badge](https://badges.greenkeeper.io/epilande/yars.svg)](https://greenkeeper.io/)
 
 ## Features
 * Webpack
