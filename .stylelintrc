@@ -7,7 +7,17 @@
       "ignore": ["after-comment"]
     }],
     "selector-pseudo-class-no-unknown": [true, {
-      "ignorePseudoClasses": ["global"]
+      "ignorePseudoClasses": [
+        "export",
+        "import",
+        "global",
+        "local"
+      ]
+    }],
+    "property-no-unknown": [ true, {
+      "ignoreProperties": [
+        "composes"
+      ]
     }]
   }
 }

@@ -46,7 +46,6 @@ const config = merge(baseConfig, {
         postcss: (webpackInstance) => [
           stylelint,
           postcssImport({
-            addDependencyTo: webpackInstance,
             path: ['./src'],
           }),
           postcssNested,
@@ -63,7 +62,6 @@ const config = merge(baseConfig, {
       favicon: 'src/assets/favicon.ico',
       inject: true,
     }),
-    new webpack.NoErrorsPlugin(),
     new webpack.DefinePlugin({
       __DEV__: true,
       'process.env': {

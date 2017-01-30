@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import { Link } from 'react-router/es6';
+import { Link } from 'react-router/es';
 import styles from './App.css';
 
 const App = ({ children }) => (
