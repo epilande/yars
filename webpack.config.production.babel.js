@@ -36,7 +36,6 @@ const config = merge(baseConfig, {
       options: {
         postcss: (webpackInstance) => [
           postcssImport({
-            addDependencyTo: webpackInstance,
             path: ['./src'],
           }),
           postcssNested,
