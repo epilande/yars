@@ -1,0 +1,38 @@
+exports[`ListItem should change to edit mode 1`] = `
+<li
+  className="item">
+  <input
+    autoFocus={true}
+    className="itemText"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    value="Hello" />
+</li>
+`;
+
+exports[`ListItem should render a ListItem 1`] = `
+<li
+  className="item">
+  <div
+    className="itemText"
+    onClick={[Function]}>
+    Hello
+  </div>
+</li>
+`;
+
+exports[`ListItem should update input value 1`] = `
+<li
+  className="item">
+  <input
+    autoFocus={true}
+    className="itemText"
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    value="Hello World" />
+</li>
+`;
