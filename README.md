@@ -2,6 +2,7 @@
 **Yet Another React Starter**
 
 [![Build Status](https://travis-ci.org/epilande/yars.svg?branch=master)](https://travis-ci.org/epilande/yars)
+[![codecov](https://codecov.io/gh/epilande/yars/branch/master/graph/badge.svg)](https://codecov.io/gh/epilande/yars)
 
 ## Features
 * Webpack
