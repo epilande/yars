@@ -1,9 +1,13 @@
 language: node_js
 node_js:
   - "6"
+before_script:
+  - yarn global add codecov
 script:
   - yarn run lint
   - yarn run test
+after_success:
+  - codecov
 notifications:
   email:
     on_success: change
