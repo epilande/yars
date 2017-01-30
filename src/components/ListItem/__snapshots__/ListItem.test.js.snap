@@ -1,3 +1,19 @@
+exports[`ListItem should call \`onRemove\` prop function 1`] = `
+<li
+  className="item">
+  <div
+    className="itemText"
+    onClick={[Function]}>
+    Hello
+  </div>
+  <button
+    className="remove"
+    onClick={[Function]}>
+    X
+  </button>
+</li>
+`;
+
 exports[`ListItem should change to edit mode 1`] = `
 <li
   className="item">
@@ -15,6 +31,23 @@ exports[`ListItem should change to edit mode 1`] = `
 exports[`ListItem should render a ListItem 1`] = `
 <li
   className="item">
+  <div
+    className="itemText"
+    onClick={[Function]}>
+    Hello
+  </div>
+</li>
+`;
+
+exports[`ListItem should render a checkbox when onComplete prop is passed 1`] = `
+<li
+  className="item">
+  <div
+    className="checkbox"
+    onClick={[Function]}>
+    <input
+      type="checkbox" />
+  </div>
   <div
     className="itemText"
     onClick={[Function]}>
