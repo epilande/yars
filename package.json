@@ -10,7 +10,8 @@
     "dev": "webpack-dev-server --config webpack.config.development.babel.js --host 0.0.0.0",
     "dev:dashboard": "webpack-dashboard -- webpack-dev-server --config webpack.config.development.babel.js",
     "prod": "NODE_ENV=production webpack --config webpack.config.production.babel.js",
-    "test": "jest"
+    "test": "jest",
+    "test:watch": "jest --watch",
   },
   "engine-strict": true,
   "engines": {
@@ -40,6 +41,7 @@
     "babel-preset-stage-0": "^6.5.0",
     "css-loader": "^0.23.1",
     "enzyme": "^2.7.1",
+    "enzyme-to-json": "^1.4.5",
     "eslint": "^3.3.1",
     "eslint-config-airbnb": "^10.0.1",
     "eslint-import-resolver-webpack": "^0.5.1",
@@ -69,6 +71,9 @@
     "webpack-merge": "^0.14.1"
   },
   "jest": {
+    "snapshotSerializers": [
+      "<rootDir>/node_modules/enzyme-to-json/serializer"
+    ],
     "moduleNameMapper": {
       "^.+\\.css$": "identity-obj-proxy"
     }
