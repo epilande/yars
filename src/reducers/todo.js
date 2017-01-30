@@ -32,7 +32,7 @@ export default function reducer(state = initialState, action = {}) {
           item.id === action.item.id
             ? { ...item, text: action.item.text }
             : item
-          )
+          ),
         ),
       };
     case COMPLETE_ITEM:
@@ -41,7 +41,7 @@ export default function reducer(state = initialState, action = {}) {
           item.id === action.item.id
             ? { ...item, completed: !item.completed }
             : item
-          )
+          ),
         ),
       };
     case CLEAR_COMPLETED:

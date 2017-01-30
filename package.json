@@ -4,7 +4,7 @@
   "description": "Yet Another React Starter",
   "scripts": {
     "lint": "npm run lint:js && npm run lint:css",
-    "lint:js": "eslint .",
+    "lint:js": "eslint ./src/**/*.js",
     "lint:css": "stylelint ./src/**/*.css",
     "clean": "rimraf dist",
     "dev": "webpack-dev-server --config webpack.config.development.babel.js --host 0.0.0.0",
