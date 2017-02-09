@@ -5,19 +5,21 @@
 [![codecov](https://codecov.io/gh/epilande/yars/branch/master/graph/badge.svg)](https://codecov.io/gh/epilande/yars)
 [![Greenkeeper badge](https://badges.greenkeeper.io/epilande/yars.svg)](https://greenkeeper.io/)
 
+If you want Server-side rendering, check out my other boilerplate **[YARIS](https://github.com/epilande/yaris)**.
+
 ## Features
-* Webpack
-* React
-* React HMR
-* Redux
-* Redux DevTools
-* React Router
-* PostCSS
-* CSS Modules
-* Babel
-* ESLint
-* Stylelint
-* NPM Scripts
+- [X] Webpack
+- [X] React
+- [X] React HMR
+- [X] Redux
+- [X] Redux DevTools
+- [X] React Router
+- [X] PostCSS
+- [X] CSS Modules
+- [X] Babel
+- [X] ESLint
+- [X] Stylelint
+- [X] NPM Scripts
 
 
 ## Quick Start
