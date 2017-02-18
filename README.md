@@ -4,6 +4,7 @@
 [![Build Status](https://travis-ci.org/epilande/yars.svg?branch=master)](https://travis-ci.org/epilande/yars)
 [![codecov](https://codecov.io/gh/epilande/yars/branch/master/graph/badge.svg)](https://codecov.io/gh/epilande/yars)
 [![Greenkeeper badge](https://badges.greenkeeper.io/epilande/yars.svg)](https://greenkeeper.io/)
+[![dependencies Status](https://david-dm.org/epilande/yars/status.svg)](https://david-dm.org/epilande/yars)
 
 If you want Server-side rendering, check out my other boilerplate **[YARIS](https://github.com/epilande/yaris)**.
 
