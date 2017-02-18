@@ -1,0 +1,12 @@
+exports[`List should render a List 1`] = `
+<ul
+  className="list">
+  <ListItem
+    item={
+      Object {
+        "id": 1,
+        "text": "Hello",
+      }
+    } />
+</ul>
+`;

@@ -1,5 +1,5 @@
 import React, { PropTypes } from 'react';
-import ListItem from 'components/ListItem';
+import ListItem from '../ListItem';
 import styles from './List.css';
 
 const List = ({ items, onRemove, onEdit, onComplete }) => (
