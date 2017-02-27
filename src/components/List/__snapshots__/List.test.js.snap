@@ -1,12 +1,16 @@
-exports[`List should render a List 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<List /> should render 1`] = `
 <ul
-  className="list">
+  className="list"
+>
   <ListItem
     item={
       Object {
         "id": 1,
         "text": "Hello",
       }
-    } />
+    }
+  />
 </ul>
 `;

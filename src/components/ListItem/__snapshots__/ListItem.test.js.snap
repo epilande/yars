@@ -1,14 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
 exports[`ListItem should call \`onRemove\` prop function 1`] = `
 <li
-  className="item">
+  className="item"
+>
   <div
     className="itemText"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     Hello
   </div>
   <button
     className="remove"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     X
   </button>
 </li>
@@ -16,7 +21,8 @@ exports[`ListItem should call \`onRemove\` prop function 1`] = `
 
 exports[`ListItem should change to edit mode 1`] = `
 <li
-  className="item">
+  className="item"
+>
   <input
     autoFocus={true}
     className="itemText"
@@ -24,16 +30,19 @@ exports[`ListItem should change to edit mode 1`] = `
     onChange={[Function]}
     onFocus={[Function]}
     onKeyDown={[Function]}
-    value="Hello" />
+    value="Hello"
+  />
 </li>
 `;
 
 exports[`ListItem should render a ListItem 1`] = `
 <li
-  className="item">
+  className="item"
+>
   <div
     className="itemText"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     Hello
   </div>
 </li>
@@ -41,16 +50,20 @@ exports[`ListItem should render a ListItem 1`] = `
 
 exports[`ListItem should render a checkbox when onComplete prop is passed 1`] = `
 <li
-  className="item">
+  className="item"
+>
   <div
     className="checkbox"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     <input
-      type="checkbox" />
+      type="checkbox"
+    />
   </div>
   <div
     className="itemText"
-    onClick={[Function]}>
+    onClick={[Function]}
+  >
     Hello
   </div>
 </li>
@@ -58,7 +71,8 @@ exports[`ListItem should render a checkbox when onComplete prop is passed 1`] = 
 
 exports[`ListItem should update input value 1`] = `
 <li
-  className="item">
+  className="item"
+>
   <input
     autoFocus={true}
     className="itemText"
@@ -66,6 +80,7 @@ exports[`ListItem should update input value 1`] = `
     onChange={[Function]}
     onFocus={[Function]}
     onKeyDown={[Function]}
-    value="Hello World" />
+    value="Hello World"
+  />
 </li>
 `;
