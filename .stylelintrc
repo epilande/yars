@@ -2,10 +2,9 @@
   "extends": "stylelint-config-standard",
   "ignoreFiles": ["node_modules/**/*.css"],
   "rules": {
-    "at-rule-empty-line-before": ["always", {
-      "except": ["blockless-group", "all-nested"],
-      "ignore": ["after-comment"]
-    }],
+    "at-rule-empty-line-before": null,
+    "selector-type-case": null,
+    "selector-type-no-unknown": null,
     "selector-pseudo-class-no-unknown": [true, {
       "ignorePseudoClasses": [
         "export",

@@ -8,6 +8,7 @@
   },
   "rules": {
     "import/no-extraneous-dependencies": 0,
+    "jsx-a11y/no-marquee": 0,
     "react/jsx-filename-extension": 0
   },
   "settings": {
