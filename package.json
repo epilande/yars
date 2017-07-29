@@ -59,7 +59,7 @@
     "postcss-import": "^9.1.0",
     "postcss-loader": "^1.2.2",
     "postcss-nested": "^1.0.0",
-    "postcss-reporter": "^3.0.0",
+    "postcss-reporter": "^5.0.0",
     "react-addons-test-utils": "^15.4.2",
     "rimraf": "^2.5.4",
     "style-loader": "^0.16.1",
