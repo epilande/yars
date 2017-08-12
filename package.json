@@ -66,7 +66,7 @@
     "stylelint": "^7.7.1",
     "stylelint-config-standard": "^16.0.0",
     "url-loader": "^0.5.7",
-    "webpack": "^2.2.0",
+    "webpack": "^3.5.4",
     "webpack-dashboard": "^0.4.0",
     "webpack-dev-server": "^2.2.0",
     "webpack-merge": "^4.0.0"
