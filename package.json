@@ -29,7 +29,7 @@
     "react-router-redux": "^4.0.7",
     "redux": "^3.6.0",
     "redux-thunk": "^2.2.0",
-    "sanitize.css": "^5.0.0"
+    "sanitize.css": "^7.0.2"
   },
   "devDependencies": {
     "babel-core": "^6.22.1",
