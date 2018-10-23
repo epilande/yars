@@ -56,7 +56,7 @@
     "jest": "^19.0.0",
     "offline-plugin": "^4.5.5",
     "postcss-cssnext": "^2.9.0",
-    "postcss-import": "^9.1.0",
+    "postcss-import": "^12.0.1",
     "postcss-loader": "^1.2.2",
     "postcss-nested": "^1.0.0",
     "postcss-reporter": "^3.0.0",
